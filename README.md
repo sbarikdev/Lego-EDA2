@@ -10,25 +10,6 @@
 
 <br />
 
-## Table of Contents
-
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
-
-<br />
-
-## Demo
-
-> To authenticate use the default credentials ***test / ApS12_ZZs8*** or create a new user on the **registration page**.
-<br />
 
 ## Quick start
 
@@ -36,8 +17,8 @@
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/creativetimofficial/argon-dashboard-django.git
-$ cd argon-dashboard-django
+$ git clone https://github.com/sbarikdev/Lego-EDA2.git
+$ cd Lego-EDA2
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -179,44 +160,6 @@ The generated file is saved in `static/assets/css` directory.
 
 The app is provided with a basic configuration to be executed in [Docker](https://www.docker.com/), [Gunicorn](https://gunicorn.org/), and [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/).
 
-### [Docker](https://www.docker.com/) execution
----
-
-The application can be easily executed in a docker container. The steps:
-
-> Get the code
-
-```bash
-$ git clone https://github.com/creativetimofficial/argon-dashboard-django.git
-$ cd argon-dashboard-django
-```
-
-> Start the app in Docker
-
-```bash
-$ sudo docker-compose pull && sudo docker-compose build && sudo docker-compose up -d
-```
-
-Visit `http://localhost:85` in your browser. The app should be up & running.
-
-<br />
-
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the **Argon Dashboard Django**. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the **Argon Dashboard Django**. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser-specific, so specifying in what browser you encountered the issue might help.
-
-<br />
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
-
-<br />
 
 ## Licensing
 
