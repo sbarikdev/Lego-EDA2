@@ -60,7 +60,7 @@ def eda2(request):
         page = request.GET.get('page', 1)
         paginator = Paginator(data, 10)
     except Exception as e:
-        print('error is---->', e)
+        print('error is------>', e)
         return render(request,'home/data/error.html', {'message': 'Error while loading data'})
     try:
         data = paginator.page(page)
