@@ -5,7 +5,7 @@
 {% block content %}
 
 <div class="header pb-6 d-flex align-items-center" 
-     style="min-height: 500px; background-image: url(/static/assets/img/theme/profile-cover.jpg); background-size: cover; background-position: center top;">
+     style="min-height: 500px; background-image: url(/static/assets/img/theme/ramram.jpg); background-size: cover; background-position: center top;">
   <!-- Mask -->
   <span class="mask bg-gradient-default opacity-8"></span>
   <!-- Header container -->
@@ -50,7 +50,7 @@
                 <div class="col-lg-6">
                   <div class="form-group">
                     <label class="form-control-label" for="input-email">Email address</label>
-                    <input type="email" id="input-email" class="form-control" placeholder="{{ request.user.email }}">
+                    <input type="email" id="input-email" class="form-control" placeholder="{{ request.user.email }}" value="{{ request.user.email }}" >
                   </div>
                 </div>
               </div>
@@ -58,13 +58,13 @@
                 <div class="col-lg-6">
                   <div class="form-group">
                     <label class="form-control-label" for="input-first-name">First name</label>
-                    <input type="text" id="input-first-name" class="form-control" placeholder="First name" value="Lucky">
+                    <input type="text" id="input-first-name" class="form-control" placeholder="First name" value="">
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="form-group">
                     <label class="form-control-label" for="input-last-name">Last name</label>
-                    <input type="text" id="input-last-name" class="form-control" placeholder="Last name" value="Jesse">
+                    <input type="text" id="input-last-name" class="form-control" placeholder="Last name" value="">
                   </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@
             <div class="pl-lg-4">
               <div class="form-group">
                 <label class="form-control-label">About Me</label>
-                <textarea rows="4" class="form-control" placeholder="A few words about you ...">A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea>
+                <textarea rows="4" class="form-control" placeholder="A few words about you ...">A beautiful Dashboard</textarea>
               </div>
             </div>
           </form>
